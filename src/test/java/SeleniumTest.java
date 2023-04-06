@@ -63,7 +63,7 @@ public class SeleniumTest {
     }
 
     @Test
-    public void checkMak() {
+    public void checkM() {
         //
         // Choose Currency
         driver.findElement(By.cssSelector("ul.list-inline")).click();
@@ -76,8 +76,7 @@ public class SeleniumTest {
         presentationSleep();
         driver.findElement(By.cssSelector("a.nav-link.dropdown-toggle")).click();
         presentationSleep();
-//        driver.findElement(By.cssSelector("a.see-all")).click();
-//        presentationSleep();
+
         driver.findElement(By.xpath("//a[text()='Mac (1)']")).click(); //imac
         presentationSleep();
 
